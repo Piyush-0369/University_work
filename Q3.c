@@ -1,15 +1,17 @@
-//weighted sum//
+//+ve -ve or 0//
 #include <stdio.h>
 int main(){
-    float m;
-    float p;
-    printf("Enter markrs in maths:");
-    scanf("%f",&m);
-    printf("Enter marks in physics:");
-    scanf("%f",&p);
-    float wm=(0.3)*m;
-    float wp=(0.7)*p;
-    float sum=wm+wp;
-    printf("Weighted sum=%f",sum);
+    int x;
+    printf("Enter the value you wanna check:");
+    scanf("%d",&x);
+    if(x>0){
+        printf("The number %d is positive",x);
+    }
+    else if(x<0){
+        printf("The number %d is negative",x);
+    }
+    else{
+        printf("The number is 0");
+    }
     return 0;
 }

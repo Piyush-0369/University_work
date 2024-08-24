@@ -1,9 +1,9 @@
-//addition without user input//
+//ASCII value of character//
 #include <stdio.h>
 int main(){
-    int x=1;
-    int y=2;
-    int sum=x+y;
-    printf("The sun of x and y is=%d",sum);
+    char x;
+    printf("Enter the character for which you need ASCII value:");
+    scanf("%c",&x);
+    printf("The ASCII value of %c is %d",x,x);
     return 0;
 }

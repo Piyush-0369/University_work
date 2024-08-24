@@ -1,12 +1,20 @@
+//leap year//
 #include <stdio.h>
 int main(){
-    float d;
-    printf("Enter distance in KM:");
-    scanf("%f",&d);
-    float m= (d*1000);
-    float cm= (m*100);
-    float f= (d*3280.84);
-    float i= (d*39370.1);
-    printf("M=%f\nCM=%f\nFeet=%f\nInch=%f",m,cm,f,i);
+    int year;
+    printf("Enter a year");
+    scanf("%d",&year);
+    if(year%400==0){
+        printf("%d is a leap year",year);
+    }
+    else if(year%100==0 && year%4==0){
+        printf("%d is not a leap year",year);
+    }
+    else if(year%4==0){
+        printf("%d is a leap year",year);
+    }
+    else{
+        printf("%d is not a leap year",year);
+    }
     return 0;
 }

@@ -1,13 +1,13 @@
-//addition with user input//
+//sizeof datatypes//
 #include <stdio.h>
 int main(){
-    int x;
-    int y;
-    printf("Enter first number: ");
-    scanf("%d",&x);
-    printf("Enter second number: ");
-    scanf("%d",&y);
-    int sum=x+y;
-    printf("%d + %d = %d",x,y,sum);
+    int p=1;
+    char q='c';
+    float r=1.1;
+    double s=2.2;
+    printf("The sizeof int is:%d\n",sizeof(p));
+    printf("The sizeof char is:%d\n",sizeof(q));
+    printf("The sizeof float is:%d\n",sizeof(r));
+    printf("The sizeof double is:%d\n",sizeof(s));
     return 0;
 }

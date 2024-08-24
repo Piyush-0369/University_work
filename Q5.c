@@ -1,14 +1,14 @@
-//Swapping without third variable//
+//area and parametre//
 #include <stdio.h>
 int main(){
-    int x,y;
-    printf("Enter first number");
-    scanf("%d",&x);
-    printf("Enter second number");
-    scanf("%d",&y);
-    x=x+y;
-    y=x-y;
-    x=x-y;
-    printf("New x=%d and New y=%d",x,y);
+    float l;
+    float b;
+    printf("Enter length of rectangle:");
+    scanf("%f",&l);
+    printf("Enter breadth of rectangle:");
+    scanf("%f",&b);
+    float area=l*b;
+    float parametre=2*(l+b);
+    printf("The area of recangle is %f and paramentre is %f",area,parametre);
     return 0;
 }

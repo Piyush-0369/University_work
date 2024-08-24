@@ -1,13 +1,26 @@
-//sizeof datatypes//
+//largest number between 3//
 #include <stdio.h>
 int main(){
-    int p=1;
-    char q='c';
-    float r=1.1;
-    double s=2.2;
-    printf("The sizeof int is:%d\n",sizeof(p));
-    printf("The sizeof char is:%d\n",sizeof(q));
-    printf("The sizeof float is:%d\n",sizeof(r));
-    printf("The sizeof double is:%d\n",sizeof(s));
+    int x;
+    int y;
+    int z;
+    printf("Enter first number:");
+    scanf("%d",&x);
+    printf("Enter second number:");
+    scanf("%d",&y);
+    printf("Enter third number:");
+    scanf("%d",&z);
+    if (x>y && x>z){
+        printf("%d is largest number",x);
+    }
+    else if (y>x && y>z){
+        printf("%d is largest number",y);
+    }
+    else if (z>y && z>x){
+        printf("%d is largest number",z);
+    }
+    else{
+        printf("All given number are equal");
+    }
     return 0;
 }
