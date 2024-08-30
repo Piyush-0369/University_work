@@ -1,12 +1,21 @@
 #include <stdio.h>
 int main(){
-    float d;
-    printf("Enter distance in KM:");
-    scanf("%f",&d);
-    float m= (d*1000);
-    float cm= (m*100);
-    float f= (d*3280.84);
-    float i= (d*39370.1);
-    printf("M=%f\nCM=%f\nFeet=%f\nInch=%f",m,cm,f,i);
+    int a,b,c;
+    printf("Enter value of a");
+    scanf("%d",&a);
+    printf("Enter value of b");
+    scanf("%d",&b);
+    printf("Enter value of c");
+    scanf("%d",&c);
+    float d=b^2 -4*a*c;
+    if(d>0){
+        printf("There are 2 uniquie solutions");
+    }
+    else if(d=0){
+        printf("There are 2 equal solutions");
+    }
+    else{
+        printf("There are 2 complex solution");
+    }
     return 0;
 }
