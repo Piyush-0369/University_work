@@ -1,14 +1,25 @@
-//Swapping without third variable//
 #include <stdio.h>
 int main(){
-    int x,y;
-    printf("Enter first number");
-    scanf("%d",&x);
-    printf("Enter second number");
-    scanf("%d",&y);
-    x=x+y;
-    y=x-y;
-    x=x-y;
-    printf("New x=%d and New y=%d",x,y);
+    float s1,s2,s3;
+    printf("Enter length of side:");
+    scanf("%f",&s1);
+    printf("Enter length of side:");
+    scanf("%f",&s2);
+    printf("Enter length of side:");
+    scanf("%f",&s3);
+    if((s1+s2)>s3 && (s2+s3)>s1 && (s1+s3)>s2){
+        if(s1==s2 && s2==s3){
+            printf("The Triangle is equilateral");
+        }
+        else if(s1==s2 || s2==s3 || s1==s3){
+            printf("The triangle is isosceles");
+        }
+        else{
+            printf("The triangle is scalene");
+        }
+    }
+    else{
+        printf("The triangle is invalid");
+    }
     return 0;
 }
