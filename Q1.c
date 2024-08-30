@@ -1,9 +1,14 @@
-//addition without user input//
+//vote eligibility//
 #include <stdio.h>
 int main(){
-    int x=1;
-    int y=2;
-    int sum=x+y;
-    printf("The sun of x and y is=%d",sum);
+    int age;
+    printf("Enter your age:");
+    scanf("%d",&age);
+    if(age>=18){
+        printf("You are eligible to vote");
+    }
+    else{
+        printf("You are not eligible to vote");
+    }
     return 0;
 }
