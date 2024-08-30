@@ -1,13 +1,19 @@
-//addition with user input//
+//triangle validity//
 #include <stdio.h>
 int main(){
-    int x;
-    int y;
-    printf("Enter first number: ");
-    scanf("%d",&x);
-    printf("Enter second number: ");
-    scanf("%d",&y);
-    int sum=x+y;
-    printf("%d + %d = %d",x,y,sum);
-    return 0;
+    float x,y,z;
+    printf("Enter three angles\n");
+    scanf("%f\n%f\n%f",&x,&y,&z);
+    if((x>90 && y>90)||(x>90 && z>90)||(y>90 && z>90)||( x==0 || y==0 || z==0)){
+        printf("The triangle is invalid");
+    }    
+    else{
+        if(x+y+z==180){
+            printf("The triangle is valid");
+        }
+        else{
+            printf("The triangle is invalid");
+        }
+        return 0;
+    }
 }
