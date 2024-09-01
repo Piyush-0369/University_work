@@ -1,3 +1,4 @@
+//SI calculator//
 #include <stdio.h>
 int main(){
     float P;
