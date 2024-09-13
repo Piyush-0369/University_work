@@ -18,7 +18,6 @@ int main(){
     switch(D){
         case 1:{
             printf("The roots are real and unique");
-            float r=1;
             break;
         }
         case 2:{
