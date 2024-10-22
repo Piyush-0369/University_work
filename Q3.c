@@ -1,3 +1,4 @@
+//function to find max and min of an array//
 #include<stdio.h>
 int MAX(int n,int A[n]){
     int max=A[0];

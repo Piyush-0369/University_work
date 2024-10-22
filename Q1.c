@@ -1,3 +1,4 @@
+//fuction to find factorial//
 #include <stdio.h>
 int factorial(int x){
     int fct=1;

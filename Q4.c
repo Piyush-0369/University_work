@@ -1,3 +1,4 @@
+//fuction to reverse an integer//
 #include<stdio.h>
 int reverse(int x){
     int y=0,z;

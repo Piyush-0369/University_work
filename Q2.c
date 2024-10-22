@@ -1,3 +1,4 @@
+//function to find prime//
 #include<stdio.h>
 int prime(int x){
     int result=1;
