@@ -1,5 +1,5 @@
 //multiplication table//
-#include<stdio.h>
+#include <stdio.h>
 int main(){
     int x,y;
     printf("Enter the number you want multiplication table of:");
