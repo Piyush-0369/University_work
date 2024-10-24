@@ -17,3 +17,33 @@ void pallindrome(int n,char A[n]){
         printf("The given string is not a pallindrome");
     }
 }
+int main(){
+    int c,n;
+    char A[99999];
+    printf("Which function would you like to use\n1.Pallindrome check\n2.Length of string\n3.String concatenation\nEnter your choice:");
+    scanf("%d",&c);
+    getchar();
+    if(c==1){
+        printf("Enter your string\n");
+        fgets(A,n,stdin);
+        n=strlen(A);
+        pallindrome(n,A);
+    }
+    else if(c==2){
+        printf("Enter your string\n");
+        fgets(A,n,stdin);
+        n=strlen(A);
+        printf("The length of given string is %d",n);
+    }
+    else if(c==3){
+        printf("Enter your string\n");
+        fgets(A,n,stdin);
+        n=strlen(A);
+        int m=99999;
+        char B[m];
+        printf("Enter your second string\n");
+        fgets(B,m,stdin);
+        strcat(A,B);
+        printf("%s is the new string",A);
+    }
+}
