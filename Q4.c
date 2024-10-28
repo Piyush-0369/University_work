@@ -22,7 +22,6 @@ int main(){
     char A[99999];
     printf("Which function would you like to use\n1.Pallindrome check\n2.Length of string\n3.String concatenation\nEnter your choice:");
     scanf("%d",&c);
-    getchar();
     if(c==1){
         printf("Enter your string\n");
         fgets(A,n,stdin);
