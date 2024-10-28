@@ -1,7 +1,7 @@
 #include<stdio.h>
 void reverse(int n,char A[n]){
     char x;
-    for(int i=0;i<n-1;i++){
+    for(int i=0;i<(n-1)/2;i++){
         x=A[i];
         A[i]=A[n-i-2];
         A[n-i-2]=x;
