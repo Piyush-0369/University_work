@@ -1,4 +1,4 @@
-//multiplication table//
+//Multiplication table//
 #include <stdio.h>
 int main(){
     int x,y;
