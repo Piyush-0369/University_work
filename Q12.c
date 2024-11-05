@@ -1,4 +1,4 @@
-//fibonacci series//
+//Fibonacci series//
 #include<stdio.h>
 int main(){
     int x=0,y=1,n;
