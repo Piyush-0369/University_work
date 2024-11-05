@@ -1,3 +1,4 @@
+//triangle types//
 #include <stdio.h>
 int main(){
     float s1,s2,s3;
