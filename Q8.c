@@ -1,4 +1,4 @@
-//sum of odd and sum of even by switchcase//
+//Sum of odd and sum of even by switchcase//
 #include<stdio.h>
 int main(){
     int n;
