@@ -1,4 +1,4 @@
-//calculator using switch//
+//Calculator using switch//
 #include <stdio.h>
 int main(){
     float x,y,result;
@@ -12,7 +12,6 @@ int main(){
     switch(z){
         case 1:
             {
-
                 result=x+y;
                 printf("The result is %f",result);
                 break;
