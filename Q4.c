@@ -12,7 +12,7 @@ int reverse(int x){
 }
 int main(){
     int x,y;
-    printf("Enter a number");
+    printf("Enter the number");
     scanf("%d",&x);
     y=reverse(x);
     printf("The reverse of number %d is %d",x,y);
