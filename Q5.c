@@ -3,9 +3,9 @@
 int main(){
     float l;
     float b;
-    printf("Enter length of rectangle:");
+    printf("Enter the length of rectangle:");
     scanf("%f",&l);
-    printf("Enter breadth of rectangle:");
+    printf("Enter the breadth of rectangle:");
     scanf("%f",&b);
     float area=l*b;
     float parametre=2*(l+b);
