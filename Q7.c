@@ -1,4 +1,4 @@
-//checking string for pallindrome//
+//Checking string for pallindrome//
 #include<stdio.h>
 #include<string.h>
 void pallindrome(int n,char A[n]){
