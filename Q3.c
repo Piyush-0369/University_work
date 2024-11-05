@@ -31,7 +31,7 @@ int main(){
             printf("The roots are real and equal\n");
             float r;
             r=(-b)/(2*a);
-            printf("The value of the root is %f",r);
+            printf("The value of the roots is %f",r);
             break;
         }
         case 3:{
