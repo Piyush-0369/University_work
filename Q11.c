@@ -1,4 +1,4 @@
-//armstrong numbers 1 to n//
+//Armstrong numbers 1 to n//
 #include<stdio.h>
 #include<math.h>
 int main(){
