@@ -1,4 +1,4 @@
-//natural numbers till n//
+//Natural numbers till n//
 #include<stdio.h>
 int main(){
     int n;
