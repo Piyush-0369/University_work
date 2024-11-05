@@ -4,11 +4,12 @@ int main(){
     int x,y,temp;
     printf("Enter value of x");
     scanf("%d",&x);
-    temp=x;
     printf("Enter value of y");
     scanf("%d",&y);
+    printf("Variables before swap x=%d and y=%d",x,y);
+    temp=x;
     x=y;
     y=temp;
-    printf("new x is %d and new y is %d",x,y);
+    printf("Variables after swap x=%d and y=%d",x,y);
     return 0;
 }
