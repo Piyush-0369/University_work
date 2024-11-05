@@ -1,7 +1,8 @@
+//reverse a number//
 #include<stdio.h>
 int main(){
-    int x,y,z;
-    printf("Enter the number you want to check:");
+    int x,y;
+    printf("Enter the number you want to reverse:");
     scanf("%d",&x);
     printf("The reverse of %d is ",x);
     for(int i=1;x>0;i++){
