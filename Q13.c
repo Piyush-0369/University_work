@@ -1,4 +1,4 @@
-//Perfect numbers 1 to n//
+//perfect numbers 1 to n//
 #include<stdio.h>
 int perfect(int i){
     int sum=0;
