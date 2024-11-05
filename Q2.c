@@ -1,4 +1,4 @@
-//vowel or consonant using switch//
+//Vowel or consonant using switch//
 #include<stdio.h>
 int main(){
     char x;
