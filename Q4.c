@@ -4,7 +4,7 @@ int main(){
     char x[]={'a','e','i','o','u','A','E','I','O','U'};
     char y;
     int z=0;
-    printf("Enter the character you wanna check:");
+    printf("Enter the character you want to check:");
     scanf("%c",&y);
     for(int i=0; i<11; i++){
         if(y==x[i]){
