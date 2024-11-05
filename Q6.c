@@ -1,18 +1,23 @@
 #include<stdio.h>
+int x=0,y=1;
 void fib(int n){
-    int x=0,y=1;
     if(n==2){
-        printf("%d, %d",x,y);
+        printf(" %d, %d",x,y);
         return;
     }
     else if(n==1){
-        
+        printf(" %d",x);
+        return;
     }
-    printf("%d, %d,",x,y);
+    printf(" %d, %d,",x,y);
     x=x+y;
     y=y+x;
     fib(n-2);
 }
 int main(){
-    fib(3);
+    int n;
+    printf("Enter till which number you want fibonacchi series ");
+    scanf("%d",&n);
+    printf("The series will be\n");
+    fib(n);
 }
