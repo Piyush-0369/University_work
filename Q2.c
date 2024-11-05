@@ -1,6 +1,6 @@
 //function to find prime//
 #include<stdio.h>
-int prime(int x){
+void prime(int x){
     int result=1;
     for(int i=1;i<x;i++){
         if(x%i==0){
