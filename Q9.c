@@ -1,4 +1,4 @@
-//palindromes(example=121 or 1331)//
+//Palindromes(example=121 or 1331)//
 #include<stdio.h>
 int main(){
     int x,y=0,z;
