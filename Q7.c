@@ -1,4 +1,4 @@
-//even numbers 1-100//
+//Even numbers 1-100//
 #include<stdio.h>
 int main(){
     int i=2,x;
