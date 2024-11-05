@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int x,y,z,lcm;
-    printf("Enter two numbers you wanna check");
+    printf("Enter two numbers you want to check");
     scanf("%d %d",&x,&y);
     z=(x>y) ? x : y;
     lcm=z;
