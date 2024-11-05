@@ -4,9 +4,9 @@ int main(){
     float P;
     float r;
     float T;
-    printf("Enter principal amount:");
+    printf("Enter the principal amount:");
     scanf("%f",&P);
-    printf("Enter rate of intrest:");
+    printf("Enter the rate of intrest:");
     scanf("%f",&r);
     printf("Enter time(in years):");
     scanf("%f",&T);
