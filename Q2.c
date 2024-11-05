@@ -4,7 +4,7 @@ int main(){
     float x,y,z;
     printf("Enter three angles\n");
     scanf("%f\n%f\n%f",&x,&y,&z);
-    if((x>90 && y>90)||(x>90 && z>90)||(y>90 && z>90)||( x==0 || y==0 || z==0)){
+    if( x<=0 || y<=0 || z<=0){
         printf("The triangle is invalid");
     }    
     else{
