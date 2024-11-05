@@ -5,7 +5,7 @@ int main(){
     float temp;
     printf("What would you like to do\n1.Celsius to Farenheit\n2.Farenheit to Celsius\nEnter your choice(1 or 2):");
     scanf("%d",&choice);
-    printf("Enter temprature:");
+    printf("Enter the temprature:");
     scanf("%f",&temp);     
     float ntemp;
     while(choice!=1 || choice !=2){
