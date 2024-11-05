@@ -17,7 +17,7 @@ int GCD(int x,int y){
 }
 int main(){
     int x,y;
-    printf("Enter two numbers for which you want GCD\nNumber 1=");
+    printf("Enter two numbers for which you want the GCD\nNumber 1=");
     scanf("%d",&x);
     printf("Number2=");
     scanf("%d",&y);
