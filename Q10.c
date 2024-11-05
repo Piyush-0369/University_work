@@ -1,4 +1,4 @@
-//prime numbers 1 to n//
+//Prime numbers 1 to n//
 #include<stdio.h>
 int prime(int i){
     int j=2;
