@@ -1,3 +1,4 @@
+//BMI calculator//
 #include <stdio.h>
 int main(){
     float m,h;
@@ -10,15 +11,15 @@ int main(){
         printf("Incorrect values");
     }
     else if(bmi<18.5){
-        printf("You are underweight");
+        printf("You are underweight with BMI of %d",bmi);
     }
     else if(bmi<24.9){
-        printf("Your have normal weight");
+        printf("Your have normal weight with BMI of %d",bmi);
     }
     else if(bmi<29.9){
-        printf("You are overweight");
+        printf("You are overweight with BMI of %d",bmi);
     }
     else{
-        printf("You are obese");
+        printf("You are obese with BMI of %d",bmi);
     }
 } 
