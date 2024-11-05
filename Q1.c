@@ -1,4 +1,4 @@
-//factorial//
+//Factorial//
 #include <stdio.h>
 int main(){
     int x,f=1;
