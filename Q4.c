@@ -1,3 +1,4 @@
+//points on line or not//
 #include <stdio.h>
 int main(){
     float x1,y1,x2,y2,x3,y3;
