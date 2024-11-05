@@ -1,4 +1,4 @@
-//reverse numbering//
+//Reverse numbering//
 #include<stdio.h>
 int main(){
     int n;
