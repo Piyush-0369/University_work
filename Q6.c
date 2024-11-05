@@ -1,3 +1,4 @@
+//quadratic_solutions//
 #include <stdio.h>
 int main(){
     int a,b,c;
