@@ -10,6 +10,6 @@ int main(){
     float wm=(0.3)*m;
     float wp=(0.7)*p;
     float sum=wm+wp;
-    printf("Weighted sum=%f",sum);
+    printf("The weighted sum=%f",sum);
     return 0;
 }
