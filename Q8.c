@@ -4,11 +4,11 @@ int main(){
     int x;
     int y;
     int z;
-    printf("Enter first number:");
+    printf("Enter the first number:");
     scanf("%d",&x);
-    printf("Enter second number:");
+    printf("Enter the second number:");
     scanf("%d",&y);
-    printf("Enter third number:");
+    printf("Enter the third number:");
     scanf("%d",&z);
     if (x>y && x>z){
         printf("%d is largest number",x);
