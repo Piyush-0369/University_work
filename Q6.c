@@ -1,3 +1,4 @@
+//recursive fibonacci//
 #include<stdio.h>
 int x=0,y=1;
 void fib(int n){

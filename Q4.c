@@ -1,3 +1,4 @@
+//pallindrome, length, concatenation//
 #include<stdio.h>
 #include<string.h>
 void pallindrome(int n,char A[n]){

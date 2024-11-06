@@ -1,3 +1,4 @@
+//matrix addition//
 #include<stdio.h>
 void matrix(int n,int A[n][n]){
     for(int i=0;i<n;i++){

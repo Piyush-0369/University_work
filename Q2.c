@@ -1,3 +1,4 @@
+//matrix multiplication//
 #include<stdio.h>
 void matrix(int m,int n,int A[m][n]){
     for(int i=0;i<m;i++){

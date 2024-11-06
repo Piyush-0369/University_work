@@ -1,3 +1,4 @@
+//reversing words//
 #include<stdio.h>
 void reverse(int n,char A[n]){
     char x;

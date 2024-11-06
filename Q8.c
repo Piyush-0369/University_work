@@ -1,3 +1,4 @@
+//multi level switch calculator//
 #include <stdio.h>
 #include <math.h>
 void add(float x, float y) {
