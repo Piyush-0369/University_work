@@ -1,6 +1,5 @@
 //concatenation//
 #include<stdio.h>
-#include<string.h>
 void main(){
     int c,n=99999,i=0,j=0;
     char A[n],B[n];
@@ -17,8 +16,6 @@ void main(){
         i++;
     }
     A[i]='\0';
-    int len=strlen(A);
-    printf("Length=%d\n",len);
     printf("The concatenated string is\n");
     printf("%s",A);
 }
