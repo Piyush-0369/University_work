@@ -1,13 +1,15 @@
+//remove char except alphabet//
 #include<stdio.h>
 void main(){
-    FILE* file=fopen("test.txt","r");
-    if(file==NULL)
-        printf("File does not exist");
-    else{
-        char c;
-        while((c=fgetc(file))!=EOF){
-            putchar(c);
+    char A[99999],ch;
+    printf("Enter your sentence/word");
+    fgets(A,99999,stdin);
+    for(int i=0;A[i]!='\0';i++){
+        if(((int)A[i]>=65 && (int)A[i]<=90)||((int)A[i]>=97 && (int)A[i]<=122)){
+        }
+        else{
+            A[i]=' ';
         }
     }
-    fclose(file);
+    printf("The new string is\n %s",A);
 }
