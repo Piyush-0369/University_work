@@ -1,4 +1,4 @@
-//copying a string//
+//Copying a string//
 #include<stdio.h>
 void main(){
     int c,n=99999,i=0;
