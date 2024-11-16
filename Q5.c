@@ -1,4 +1,4 @@
-//concatenation//
+//Concatenation//
 #include<stdio.h>
 void main(){
     int c,n=99999,i=0,j=0;
