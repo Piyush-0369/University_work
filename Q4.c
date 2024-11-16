@@ -1,4 +1,4 @@
-//length of a string//
+//Length of a string//
 #include<stdio.h>
 void main(){
     int c,n=99999,len=0;
