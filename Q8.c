@@ -1,4 +1,4 @@
-//sorting in lexicographical/dictionary order//
+//Sorting in lexicographical/dictionary order//
 #include<stdio.h>
 void main(){
     char temp;
