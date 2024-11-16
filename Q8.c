@@ -7,7 +7,7 @@ void main(){
     fgets(A,9999,stdin);
     for(int i=0;A[i]!='\0';i++){
         for(int j=0;A[j]!='\0';j++){
-            if((int)A[i]>(int)A[j]){
+            if((int)A[i]<(int)A[j]){
                 temp=A[i];
                 A[i]=A[j];
                 A[j]=temp;
