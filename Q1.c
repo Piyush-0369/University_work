@@ -1,4 +1,4 @@
-//frequency of a character//
+//Frequency of a character//
 #include<stdio.h>
 void main(){
     char A[99999],ch;
