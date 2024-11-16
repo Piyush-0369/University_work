@@ -1,4 +1,4 @@
-//reversing sentence//
+//Reversing sentence//
 #include<stdio.h>
 void reverse(int n,char A[n]){
     char x;
