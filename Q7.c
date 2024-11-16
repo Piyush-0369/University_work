@@ -1,4 +1,4 @@
-//remove char except alphabet//
+//Remove char except alphabet//
 #include<stdio.h>
 void main(){
     char A[99999],ch;
