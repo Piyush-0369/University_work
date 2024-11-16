@@ -1,4 +1,4 @@
-//number of spaces,digits,vowels,consonants//
+//Number of spaces,digits,vowels,consonants//
 #include<stdio.h>
 void main(){
     int space=0,digit=0,vowel=0,consonant=0;
