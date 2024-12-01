@@ -1,6 +1,7 @@
 // sum of array using pointer
 #include<stdio.h>
 void add(int *x,int n,int A[n]){
+    printf("hi");
     for(int i=0;i<=n;i++){
         *x=*x+A[i];
     }

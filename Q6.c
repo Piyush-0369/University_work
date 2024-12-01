@@ -1,4 +1,4 @@
-//sum of array elements with pointers
+//factorial using pointer
 #include<stdio.h>
 void factorial(int *x,int n){
     int i=2;
@@ -7,8 +7,10 @@ void factorial(int *x,int n){
         i++;
     }
 }
-int main(){
-    int n=5,fct=1;
-    factorial(&fct,4);
+void main(){
+    int n,fct=1;
+    printf("Which number you want factorial of? ");
+    scanf("%d",&n);
+    factorial(&fct,n);
     printf("%d",fct);
 }
