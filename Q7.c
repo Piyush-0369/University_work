@@ -8,7 +8,7 @@ void main(){
             file=fopen("sample.txt","w");
             char str[99999];
             printf("Enter what would you like to write in the file\n");
-            fgets(str,99999,file);
+            fputs(str,99999,file);
             printf("Content added succesfully");
             fclose(file);
         }
@@ -33,7 +33,7 @@ void main(){
             else{
                 char str[99999];
                 printf("Enter what would you like to write in the file\n");
-                fgets(str,99999,file);
+                fputs(str,99999,file);
                 printf("Content added succesfully");
             }
             fclose(file);
