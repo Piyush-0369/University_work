@@ -9,6 +9,7 @@ void main(){
     fgets(B,n,stdin);
     while(A[i]!='\0')
         i++;
+    i--;
     while(B[j]!='\0'){
         A[i]=B[j];
         j++;
